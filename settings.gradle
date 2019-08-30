@@ -1,0 +1,11 @@
+rootProject.name = 'shopping'
+
+include "applications:customer-service"
+include "applications:order-service"
+
+include "components:customers"
+include "components:orders"
+
+include "platform-services:eureka-server"
+include 'platform-services:config-server'
+
